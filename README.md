@@ -1,0 +1,2 @@
+# YSScrollDetecter
+YSScrollDetecterは簡単に使えるiOS用のswift製スクロール検出ライブラリです。

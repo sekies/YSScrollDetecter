@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3D9B4A023289F110025A9B5 /* YSScrollDetecter.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D9B49E23289F110025A9B5 /* YSScrollDetecter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3D9B4A723289F2F0025A9B5 /* YSScrollDetecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B4A623289F2F0025A9B5 /* YSScrollDetecter.swift */; };
+		F3D9B4B523289F4C0025A9B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B4B423289F4C0025A9B5 /* AppDelegate.swift */; };
+		F3D9B4B723289F4C0025A9B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B4B623289F4C0025A9B5 /* ViewController.swift */; };
+		F3D9B4BA23289F4C0025A9B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D9B4B823289F4C0025A9B5 /* Main.storyboard */; };
+		F3D9B4BC23289F4E0025A9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3D9B4BB23289F4E0025A9B5 /* Assets.xcassets */; };
+		F3D9B4BF23289F4E0025A9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D9B4BD23289F4E0025A9B5 /* LaunchScreen.storyboard */; };
+		F3D9B4CA23289F620025A9B5 /* YSScrollDetecter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B4C823289F620025A9B5 /* YSScrollDetecter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3D9B49B23289F110025A9B5 /* YSScrollDetecter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YSScrollDetecter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3D9B49E23289F110025A9B5 /* YSScrollDetecter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSScrollDetecter.h; sourceTree = "<group>"; };
-		F3D9B49F23289F110025A9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3D9B4A623289F2F0025A9B5 /* YSScrollDetecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSScrollDetecter.swift; sourceTree = "<group>"; };
+		F3D9B4B123289F4C0025A9B5 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3D9B4B423289F4C0025A9B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3D9B4B623289F4C0025A9B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3D9B4B923289F4C0025A9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3D9B4BB23289F4E0025A9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3D9B4BE23289F4E0025A9B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3D9B4C023289F4E0025A9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D9B4C723289F620025A9B5 /* YSScrollDetecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSScrollDetecter.h; sourceTree = "<group>"; };
+		F3D9B4C823289F620025A9B5 /* YSScrollDetecter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSScrollDetecter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3D9B49823289F110025A9B5 /* Frameworks */ = {
+		F3D9B4AE23289F4C0025A9B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,119 +38,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3D9B49123289F110025A9B5 = {
+		F3D9B4A823289F4C0025A9B5 = {
 			isa = PBXGroup;
 			children = (
-				F3D9B49D23289F110025A9B5 /* YSScrollDetecter */,
-				F3D9B49C23289F110025A9B5 /* Products */,
+				F3D9B4C623289F620025A9B5 /* YSScrollDetecter */,
+				F3D9B4B323289F4C0025A9B5 /* Demo */,
+				F3D9B4B223289F4C0025A9B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3D9B49C23289F110025A9B5 /* Products */ = {
+		F3D9B4B223289F4C0025A9B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3D9B49B23289F110025A9B5 /* YSScrollDetecter.framework */,
+				F3D9B4B123289F4C0025A9B5 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3D9B49D23289F110025A9B5 /* YSScrollDetecter */ = {
+		F3D9B4B323289F4C0025A9B5 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				F3D9B49E23289F110025A9B5 /* YSScrollDetecter.h */,
-				F3D9B4A623289F2F0025A9B5 /* YSScrollDetecter.swift */,
-				F3D9B49F23289F110025A9B5 /* Info.plist */,
+				F3D9B4B423289F4C0025A9B5 /* AppDelegate.swift */,
+				F3D9B4B623289F4C0025A9B5 /* ViewController.swift */,
+				F3D9B4B823289F4C0025A9B5 /* Main.storyboard */,
+				F3D9B4BB23289F4E0025A9B5 /* Assets.xcassets */,
+				F3D9B4BD23289F4E0025A9B5 /* LaunchScreen.storyboard */,
+				F3D9B4C023289F4E0025A9B5 /* Info.plist */,
 			);
-			path = YSScrollDetecter;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		F3D9B4C623289F620025A9B5 /* YSScrollDetecter */ = {
+			isa = PBXGroup;
+			children = (
+				F3D9B4C723289F620025A9B5 /* YSScrollDetecter.h */,
+				F3D9B4C823289F620025A9B5 /* YSScrollDetecter.swift */,
+			);
+			name = YSScrollDetecter;
+			path = ../YSScrollDetecter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		F3D9B49623289F110025A9B5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3D9B4A023289F110025A9B5 /* YSScrollDetecter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		F3D9B49A23289F110025A9B5 /* YSScrollDetecter */ = {
+		F3D9B4B023289F4C0025A9B5 /* Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3D9B4A323289F110025A9B5 /* Build configuration list for PBXNativeTarget "YSScrollDetecter" */;
+			buildConfigurationList = F3D9B4C323289F4E0025A9B5 /* Build configuration list for PBXNativeTarget "Demo" */;
 			buildPhases = (
-				F3D9B49623289F110025A9B5 /* Headers */,
-				F3D9B49723289F110025A9B5 /* Sources */,
-				F3D9B49823289F110025A9B5 /* Frameworks */,
-				F3D9B49923289F110025A9B5 /* Resources */,
+				F3D9B4AD23289F4C0025A9B5 /* Sources */,
+				F3D9B4AE23289F4C0025A9B5 /* Frameworks */,
+				F3D9B4AF23289F4C0025A9B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YSScrollDetecter;
-			productName = YSScrollDetecter;
-			productReference = F3D9B49B23289F110025A9B5 /* YSScrollDetecter.framework */;
-			productType = "com.apple.product-type.framework";
+			name = Demo;
+			productName = Demo;
+			productReference = F3D9B4B123289F4C0025A9B5 /* Demo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3D9B49223289F110025A9B5 /* Project object */ = {
+		F3D9B4A923289F4C0025A9B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "関　洋輔";
 				TargetAttributes = {
-					F3D9B49A23289F110025A9B5 = {
+					F3D9B4B023289F4C0025A9B5 = {
 						CreatedOnToolsVersion = 10.3;
-						LastSwiftMigration = 1030;
 					};
 				};
 			};
-			buildConfigurationList = F3D9B49523289F110025A9B5 /* Build configuration list for PBXProject "YSScrollDetecter" */;
+			buildConfigurationList = F3D9B4AC23289F4C0025A9B5 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = F3D9B49123289F110025A9B5;
-			productRefGroup = F3D9B49C23289F110025A9B5 /* Products */;
+			mainGroup = F3D9B4A823289F4C0025A9B5;
+			productRefGroup = F3D9B4B223289F4C0025A9B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3D9B49A23289F110025A9B5 /* YSScrollDetecter */,
+				F3D9B4B023289F4C0025A9B5 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3D9B49923289F110025A9B5 /* Resources */ = {
+		F3D9B4AF23289F4C0025A9B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D9B4BF23289F4E0025A9B5 /* LaunchScreen.storyboard in Resources */,
+				F3D9B4BC23289F4E0025A9B5 /* Assets.xcassets in Resources */,
+				F3D9B4BA23289F4C0025A9B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3D9B49723289F110025A9B5 /* Sources */ = {
+		F3D9B4AD23289F4C0025A9B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3D9B4A723289F2F0025A9B5 /* YSScrollDetecter.swift in Sources */,
+				F3D9B4CA23289F620025A9B5 /* YSScrollDetecter.swift in Sources */,
+				F3D9B4B723289F4C0025A9B5 /* ViewController.swift in Sources */,
+				F3D9B4B523289F4C0025A9B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		F3D9B4B823289F4C0025A9B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D9B4B923289F4C0025A9B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3D9B4BD23289F4E0025A9B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3D9B4BE23289F4E0025A9B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		F3D9B4A123289F110025A9B5 /* Debug */ = {
+		F3D9B4C123289F4E0025A9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -175,7 +211,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -200,12 +235,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F3D9B4A223289F110025A9B5 /* Release */ = {
+		F3D9B4C223289F4E0025A9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +272,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -258,57 +290,38 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F3D9B4A423289F110025A9B5 /* Debug */ = {
+		F3D9B4C423289F4E0025A9B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = YSScrollDetecter/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.smooooth.YSScrollDetecter;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				PRODUCT_BUNDLE_IDENTIFIER = net.smooooth.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F3D9B4A523289F110025A9B5 /* Release */ = {
+		F3D9B4C523289F4E0025A9B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = YSScrollDetecter/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = net.smooooth.YSScrollDetecter;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = net.smooooth.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -317,25 +330,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3D9B49523289F110025A9B5 /* Build configuration list for PBXProject "YSScrollDetecter" */ = {
+		F3D9B4AC23289F4C0025A9B5 /* Build configuration list for PBXProject "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3D9B4A123289F110025A9B5 /* Debug */,
-				F3D9B4A223289F110025A9B5 /* Release */,
+				F3D9B4C123289F4E0025A9B5 /* Debug */,
+				F3D9B4C223289F4E0025A9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3D9B4A323289F110025A9B5 /* Build configuration list for PBXNativeTarget "YSScrollDetecter" */ = {
+		F3D9B4C323289F4E0025A9B5 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3D9B4A423289F110025A9B5 /* Debug */,
-				F3D9B4A523289F110025A9B5 /* Release */,
+				F3D9B4C423289F4E0025A9B5 /* Debug */,
+				F3D9B4C523289F4E0025A9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3D9B49223289F110025A9B5 /* Project object */;
+	rootObject = F3D9B4A923289F4C0025A9B5 /* Project object */;
 }
