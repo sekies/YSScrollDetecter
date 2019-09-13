@@ -122,9 +122,4 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         scrollDetecter.scrollViewWillEndDragging(scrollview)
     }
-    
-    
-    
-    
 }
-
