@@ -1,8 +1,10 @@
 # YSScrollDetecter
 YSScrollDetecterは簡単に使えるiOS用のswift製スクロール検出ライブラリです。
 
-![scrollDetecter](scrollDetecter.gif)　
+
 ![scrollDetecter2](scrollDetecter2.gif)　
+![scrollDetecter](scrollDetecter.gif)　
+
 # Features
 UIScrollViewを上下に引っ張った時に画面を閉じる等、なにかしらの処理を挿し込むことができるライブラリです。
 
