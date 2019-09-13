@@ -87,6 +87,7 @@ YSScrollDetecterはUIScrollViewのスクロールの状態に対応してクロ�
 DemoのViewControllerに簡単な実装の例がありますのでご参照ください。
 ```Swift
 import UIKit
+import YSScrollDetecter
 
 class ViewController: UIViewController,UIScrollViewDelegate {
     
