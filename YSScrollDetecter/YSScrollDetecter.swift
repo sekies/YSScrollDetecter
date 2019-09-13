@@ -16,16 +16,16 @@ public class YSScrollDetecter: NSObject {
     var isScrolledThresholdForBottom:Bool = false //スクロールを意図的にやめようとしているかどうか
     var scrolledFunctionIsReady:Bool = false //スクロール後に処理を行うことが確定しているかどうか
     
-    var attentionForTop:(()->())?
-    var attentionForBottom:(()->())?
-    var attentionEndForTop:(()->())?
-    var attentionEndForBottom:(()->())?
-    var scrollingForTop:((CGFloat)->())?
-    var scrollingForBottom:((CGFloat)->())?
-    var scrollEndForTop:(()->())?
-    var scrollEndForBottom:(()->())?
+    public var attentionForTop:(()->())?
+    public var attentionForBottom:(()->())?
+    public var attentionEndForTop:(()->())?
+    public var attentionEndForBottom:(()->())?
+    public var scrollingForTop:((CGFloat)->())?
+    public var scrollingForBottom:((CGFloat)->())?
+    public var scrollEndForTop:(()->())?
+    public var scrollEndForBottom:(()->())?
     
-    init(topOffsetMax:CGFloat, bottomOffsetMax:CGFloat) {
+    public init(topOffsetMax:CGFloat, bottomOffsetMax:CGFloat) {
         self.topOffset = topOffsetMax
         self.bottomOffset = bottomOffsetMax
     }
