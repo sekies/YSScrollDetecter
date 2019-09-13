@@ -9,8 +9,8 @@
 import UIKit
 
 public class YSScrollDetecter: NSObject {
-    public var topOffset:CGFloat = 0
-    public var bottomOffset:CGFloat = 0
+    var topOffset:CGFloat = 0
+    var bottomOffset:CGFloat = 0
     var scrollBeforeY:CGFloat = 0
     var isScrolledThresholdForTop:Bool = false //スクロールを意図的にやめようとしているかどうか
     var isScrolledThresholdForBottom:Bool = false //スクロールを意図的にやめようとしているかどうか
@@ -31,7 +31,7 @@ public class YSScrollDetecter: NSObject {
     }
     
     
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         if(scrolledFunctionIsReady){
             return
         }
@@ -60,7 +60,7 @@ public class YSScrollDetecter: NSObject {
     }
     
     
-    func scrollViewWillEndDragging(_ scrollView: UIScrollView) {
+    public func scrollViewWillEndDragging(_ scrollView: UIScrollView) {
         if(!isScrolledThresholdForTop){
             if(!isScrolledThresholdForBottom){
                 return

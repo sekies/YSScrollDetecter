@@ -115,11 +115,11 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     
     // MARK: - UIScrollViewDelegate
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        scrollDetecter.scrollViewDidScroll(scrollview)
+        scrollDetecter.scrollViewDidScroll(scrollView)
     }
     
     
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-        scrollDetecter.scrollViewWillEndDragging(scrollview)
+        scrollDetecter.scrollViewWillEndDragging(scrollView)
     }
 }
